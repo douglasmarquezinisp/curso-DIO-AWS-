@@ -1,0 +1,15 @@
+listaDeNomes = ['juliana', 'nami', 'adalberto', 'helliot', 'adalberto']
+
+def acharElemento(array, elemento):
+    elementoEncontrato = False
+
+    for i in range(len(array)):
+        if (array[i] ==elemento):
+            elementoEncontrato = True
+
+    if(encontreiElemento == True):
+        print('Encontrei o elemento')
+    else:
+        print('Não encontrei o elemento')
+
+acharElemento(listaDeNomes,'douglas')
